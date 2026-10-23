@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">MySIMA</string>
+    <string name="app_subtitle">Streamlined workspace management</string>
+    
+    <!-- Auth Tabs -->
+    <string name="tab_login">Sign In</string>
+    <string name="tab_register">Register</string>
+    <string name="tab_forgot_password">Recovery</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome back</string>
+    <string name="login_desc">Enter your email and password to access your account</string>
+    <string name="label_email">Email address</string>
+    <string name="hint_email">name@example.com</string>
+    <string name="label_password">Password</string>
+    <string name="hint_password">••••••••</string>
+    <string name="remember_me">Remember this device</string>
+    <string name="forgot_password_link">Forgot password?</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="btn_quick_demo">Quick Demo Sign In</string>
+    <string name="or_continue_with">Or continue with</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="sign_up_now">Sign up</string>
+
+    <!-- Register -->
+    <string name="register_title">Create an account</string>
+    <string name="register_desc">Enter your details below to create your account</string>
+    <string name="label_full_name">Full Name</string>
+    <string name="hint_full_name">Alex Rivera</string>
+    <string name="label_confirm_password">Confirm Password</string>
+    <string name="hint_confirm_password">••••••••</string>
+    <string name="agree_terms">I agree to the Terms of Service &amp; Privacy Policy</string>
+    <string name="btn_create_account">Create Account</string>
+    <string name="have_account">Already have an account?</string>
+
+    <!-- Forgot Password -->
+    <string name="forgot_title">Reset password</string>
+    <string name="forgot_desc">Enter your registered email address and we\'ll send you a link to reset your password.</string>
+    <string name="btn_send_reset_link">Send Reset Link</string>
+    <string name="back_to_sign_in">Back to Sign In</string>
+    <string name="reset_link_sent_success">A password reset email has been sent if the account exists.</string>
+    <string name="cd_app_logo">App logo</string>
+    <string name="cd_security_verified">Security verified</string>
+
+    <!-- Home (Compose) -->
+    <string name="home_greeting">Good morning, %s</string>
+    <string name="home_subtitle">Here is what is happening across your projects today.</string>
+    <string name="nav_dashboard">Overview</string>
+    <string name="nav_analytics">Analytics</string>
+    <string name="nav_reports">Reports</string>
+    <string name="metric_revenue">Total Revenue</string>
+    <string name="metric_subscriptions">Active Subscriptions</string>
+    <string name="metric_tasks">Completed Tasks</string>
+    <string name="metric_uptime">System Health</string>
+    <string name="recent_activity_title">Recent Activity</string>
+    <string name="quick_actions_title">Quick Actions</string>
+    <string name="btn_new_project">New Project</string>
+    <string name="btn_invite_member">Invite Member</string>
+    <string name="btn_export_data">Export Report</string>
+    <string name="btn_logout">Sign Out</string>
+</resources>

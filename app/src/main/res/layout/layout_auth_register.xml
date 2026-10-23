@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/containerRegister"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvRegisterTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_title"
+        android:textColor="@color/text_primary"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvRegisterSubtitle"
+        style="@style/Widget.Shadcn.Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/register_desc" />
+
+    <!-- Full Name Field -->
+    <TextView
+        style="@style/Widget.Shadcn.Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/label_full_name" />
+
+    <EditText
+        android:id="@+id/etRegisterName"
+        style="@style/Widget.Shadcn.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:autofillHints="name"
+        android:hint="@string/hint_full_name"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName|textCapWords"
+        android:maxLines="1" />
+
+    <!-- Email Field -->
+    <TextView
+        style="@style/Widget.Shadcn.Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/label_email" />
+
+    <EditText
+        android:id="@+id/etRegisterEmail"
+        style="@style/Widget.Shadcn.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:autofillHints="emailAddress"
+        android:hint="@string/hint_email"
+        android:imeOptions="actionNext"
+        android:inputType="textEmailAddress"
+        android:maxLines="1" />
+
+    <!-- Password Field -->
+    <TextView
+        style="@style/Widget.Shadcn.Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/label_password" />
+
+    <EditText
+        android:id="@+id/etRegisterPassword"
+        style="@style/Widget.Shadcn.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:autofillHints="newPassword"
+        android:hint="@string/hint_password"
+        android:imeOptions="actionNext"
+        android:inputType="textPassword"
+        android:maxLines="1" />
+
+    <!-- Confirm Password Field -->
+    <TextView
+        style="@style/Widget.Shadcn.Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/label_confirm_password" />
+
+    <EditText
+        android:id="@+id/etRegisterConfirmPassword"
+        style="@style/Widget.Shadcn.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:autofillHints="newPassword"
+        android:hint="@string/hint_confirm_password"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:maxLines="1" />
+
+    <!-- Agree Terms Checkbox -->
+    <CheckBox
+        android:id="@+id/cbAgreeTerms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:buttonTint="@color/text_primary"
+        android:minHeight="48dp"
+        android:text="@string/agree_terms"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp" />
+
+    <!-- Error Banner -->
+    <TextView
+        android:id="@+id/tvRegisterError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_badge"
+        android:padding="8dp"
+        android:textColor="@color/status_destructive"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnRegisterSubmit"
+        style="@style/Widget.Shadcn.Button.Primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minHeight="48dp"
+        android:text="@string/btn_create_account" />
+
+    <!-- Footer Switch -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/Widget.Shadcn.Description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/have_account" />
+
+        <TextView
+            android:id="@+id/tvGoToLoginFromRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:minHeight="48dp"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="4dp"
+            android:text="@string/tab_login"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

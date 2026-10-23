@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Shadcn Zinc Palette (Dark) -->
+    <color name="bg_app">#FF09090B</color>
+    <color name="bg_surface">#FF121215</color>
+    <color name="bg_surface_variant">#FF18181B</color>
+    <color name="border_subtle">#FF27272A</color>
+    <color name="border_focused">#FFFAFAFA</color>
+
+    <color name="text_primary">#FFFAFAFA</color>
+    <color name="text_secondary">#FFA1A1AA</color>
+    <color name="text_tertiary">#FF71717A</color>
+
+    <color name="btn_primary_bg">#FFFAFAFA</color>
+    <color name="btn_primary_text">#FF09090B</color>
+    <color name="btn_secondary_bg">#FF27272A</color>
+    <color name="btn_secondary_text">#FFFAFAFA</color>
+
+    <color name="status_destructive">#FFF87171</color>
+    <color name="status_destructive_bg">#FF451A1A</color>
+    <color name="status_success">#FF34D399</color>
+    <color name="status_success_bg">#FF064E3B</color>
+
+    <color name="tabs_background">#FF18181B</color>
+    <color name="tab_indicator">#FF27272A</color>
+    <color name="tab_text_selected">#FFFAFAFA</color>
+    <color name="tab_text_unselected">#FFA1A1AA</color>
+</resources>
